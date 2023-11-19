@@ -1,0 +1,88 @@
+body{
+    background-image: url(/Project/Pictures/background1.jpg);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: right;
+    width: 100%;
+    background-color: skyblue;
+    padding: 10px;
+}
+.navbar a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 28px;
+    color: black;
+    transition: 0.1s;
+}
+.navbar a:hover{
+    color: mintcream;
+    text-decoration: underline;
+    transition: 0.1s;
+}
+
+.navbar a:active{
+    color: darkblue;
+    text-decoration: underline;
+}
+.navbar a.active{
+    color: mintcream;
+    text-decoration: underline;
+}
+.loginbtn{
+    padding-right: 20px;
+}
+a.loginbtn:hover{
+    color: greenyellow;
+    border: none;
+    text-decoration: underline;
+}
+a.loginbtn:active{
+    color: green;
+    border: none;
+    text-decoration: underline;
+}
+.disclaimer{
+    color: red;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 22%;
+}
+
+.regbox{
+    display: block;
+    width: 400px;
+    height: 330px;
+    margin-left: 38%;
+    margin-top: 5%;
+    background-color: aquamarine;
+    text-align: center;
+}
+label{
+    display: block;
+    font-size: 25px;
+    padding-top: 8px;
+}
+input{
+    font-size: 19px;
+}
+.submitbtn{
+    margin-top: 35px;
+}
+.registration{
+    display:inline-block;
+    font-size: 28px;
+    margin-left: 46%;
+    margin-top: 10px;
+    text-decoration: none;
+    color: blue;
+}
+.registration:hover{
+    color: red;
+    text-decoration: underline;
+}

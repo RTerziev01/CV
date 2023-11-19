@@ -1,0 +1,91 @@
+body{
+    background-image: url(../Pictures/background1.jpg);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-attachment: fixed;;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: right;
+    width: 100%;
+    background-color: skyblue;
+    padding: 10px;
+}
+.navbar a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 28px;
+    color: black;
+    transition: 0.1s;
+}
+.navbar a:hover{
+    color: mintcream;
+    text-decoration: underline;
+    transition: 0.1s;
+}
+
+.navbar a:active{
+    color: darkblue;
+    text-decoration: underline;
+}
+.navbar a.active{
+    color: mintcream;
+    text-decoration: underline;
+    padding-left: 20px;
+}
+.loginbtn{
+    padding-right: 20px;
+}
+a.loginbtn:hover{
+    color: greenyellow;
+    border: none;
+    text-decoration: underline;
+}
+a.loginbtn:active{
+    color: green;
+    border: none;
+    text-decoration: underline;
+}
+
+.disclaimer{
+    color: red;
+    position: relative;
+    margin-top: 70px;
+    margin-left: 19%;
+}
+
+.loginbox{
+    border: 3px solid green;
+    box-sizing: border-box;
+    width: 400px;
+    height: 300px;
+    margin-top: 6%;
+    margin-left: 37%;
+    background-color: aquamarine;
+    text-align: center;
+}
+label{
+    display: block;
+    font-size: 25px;
+    padding-top: 15px;
+}
+input{
+    font-size: 19px;
+}
+.submitbtn{
+    margin-top: 28px;
+}
+.loginbox > a{
+    margin-top: 10px;
+    display:block;
+    font-size: 28px;
+    text-decoration: none;
+    color: blue;
+}
+.loginbox > a:hover{
+    color: red;
+    text-decoration: underline;
+}
