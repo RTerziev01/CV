@@ -39,28 +39,3 @@ body{
     color: mintcream;
     text-decoration: underline;
 }
-/*.lighthouse{
-    position: relative;
-    box-sizing: border-box;
-    width: 35vw;
-    height: 30vh;
-    border: 5px solid skyblue;
-    top: 80px;
-    left: 31%;
-    background-color: white;
-}
-
-.homeimage > img {
-    width: 100%;
-    height: 100%;
-}
-.homeimage > img:hover {
-    opacity: 0.6;
-}
-.lighthouse-heading{
-    position: absolute;
-    left: 3%;
-    top: 12%;
-    color: red;
-    font-size: 28px;
-}*/
