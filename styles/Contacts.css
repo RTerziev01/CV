@@ -1,0 +1,95 @@
+body{
+background-color: skyblue;
+margin: 0;
+padding: 0;
+}
+.navbar {
+position: relative;
+text-align: right;
+width: 100%;    
+height: 70px;
+background-color: rgb(9, 198, 241);
+overflow: hidden;
+float: left;
+margin-bottom: 25px;
+}
+.navbar a {
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+font-size: 35px;
+padding: 13px;
+line-height: 65px;
+color: black;
+transition: 0.15s;
+}
+.navbar a:hover{
+color: mintcream;
+text-decoration: underline;
+transition: 0.15s;
+}
+
+.navbar a:active{
+color: lightgreen;
+text-decoration: underline;
+}
+.navbar a.active{
+color: mintcream;
+text-decoration: underline;
+}  
+#contact-box{
+box-sizing: border-box;
+display: flex;
+position: relative;
+background-color: rgb(88, 255, 88);
+border: 3px solid red;
+width: 60%;
+margin: 150px 20%;
+height: 550px;
+overflow: hidden;
+}
+#contact-box > .contact1 {
+width: 100%;
+height: 100px;
+background-color: white;
+position: absolute;
+top: 100px;
+border: 2px solid black;
+overflow: hidden;
+
+
+}
+#contact-box > .contact2 {
+width: 100%;
+height: 100px;
+background-color: white;
+position: absolute;
+top: 233px;
+border: 2px solid black;
+overflow: hidden;
+}
+#contact-box > .contact3{
+width: 45%;
+height: 100px;
+background-color: white;
+position: absolute;
+top: 366px;
+left: 5px;
+border: 2px solid black;
+overflow: hidden;
+}
+#iframe{
+position: absolute;
+bottom: 0px;
+width: 100%;  
+}
+.contact-way{
+text-align: center;
+font-size: 28px;
+color: blue; 
+line-height: 0px;   
+}
+.contact-info{
+text-align: center;
+font-size: 38px;
+line-height: 0%;
+}
